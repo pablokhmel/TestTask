@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Differentiator (5.0.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Realm (10.32.0):
+    - Realm/Headers (= 10.32.0)
+  - Realm/Headers (10.32.0)
+  - RealmSwift (10.32.0):
+    - Realm (= 10.32.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.13.4):
+    - SDWebImage/Core (= 5.13.4)
+  - SDWebImage/Core (5.13.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Moya
+  - RealmSwift (~> 10)
+  - RxCocoa (= 6.5.0)
+  - RxDataSources
+  - RxSwift (= 6.5.0)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - Moya
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Realm: a00e93347b8d26d372c7a82f6c0b08d6536a21c8
+  RealmSwift: fe09c29ca409f8f905fe4086f2a52936193f2e3d
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: e5cc87bf736e60f49592f307bdf9e157189298a3
+
+PODFILE CHECKSUM: 20001fae094487720d606c8fe8583cbb23e082eb
+
+COCOAPODS: 1.11.3
