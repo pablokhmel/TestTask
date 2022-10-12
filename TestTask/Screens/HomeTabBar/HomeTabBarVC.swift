@@ -29,8 +29,8 @@ class HomeTabBarVC: UITabBarController {
 
     func setupVCs() {
         viewControllers = [
-            createNavController(for: FeedVC(), title: "Feed", image: UIImage(systemName: "photo")!),
-            createNavController(for: FavoriteVC(), title: "Favorite", image: UIImage(systemName: "star.fill")!)
+            createNavController(for: FeedVC(viewModel: FeedVM()), title: "Feed", image: UIImage(systemName: "photo")!),
+            createNavController(for: FavoriteVC(viewModel: FavoriteVM()), title: "Favorite", image: UIImage(systemName: "star.fill")!)
         ]
     }
 }
